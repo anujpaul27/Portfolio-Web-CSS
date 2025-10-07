@@ -169,6 +169,11 @@ nav > ul > button {
     align-items: center;
     margin: 50px 50px ;
 }
+.hide {
+    display: none;
+}
+
+/* Footer Style */
 
 .footer {
     background-color: #FFF8F3;
@@ -177,15 +182,15 @@ nav > ul > button {
 }
 
 .footer-container {
-    width: 800px;
+    width: 50%;
     height: 400px;
-    margin: 100px 100px 0px 100px;
+    margin: 10% 5% 0% 8%;
 }
 
 .footer-form {
-    width: 800px;
+    width: 50%;
     height: 400px;
-    margin: 50px 100px 0px 100px;
+    margin: 2% 10% 0% 8%;
 }
 
 .footer-icon {
@@ -195,10 +200,27 @@ nav > ul > button {
 
 /* Footer */
 input {
-    width: 100%;
+    width: 90%;
     height: 50px;
     border-radius: 10px;
     border: none;
     margin: 10px;
+}
+
+@media  screen and (max-width:576px) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;  
+    }
+    .footer-container {
+        width: 80%;
+        height: 80%;
+        padding: 0%;
+    }
+    .footer-form {
+        width: 80%;
+        
+    }
 }
 
