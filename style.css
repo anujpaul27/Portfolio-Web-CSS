@@ -208,6 +208,13 @@ input {
 }
 
 @media  screen and (max-width:576px) {
+
+    .resume {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
     .footer {
         flex-direction: column;
         justify-content: center;
