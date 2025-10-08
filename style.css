@@ -29,7 +29,7 @@ nav > h1 {
     font-family: sans-serif;
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,7 +61,7 @@ nav > ul > button {
 }
 
 .banner-content {
-    width: 580px;
+    width: 55%;
     
 }
 
@@ -75,7 +75,7 @@ nav > ul > button {
     font-family: sans-serif;
 }
 .banner-image {
-    width: 584px;
+    width: 45%;
 }
 .description {
     font-family: sans-serif;
@@ -207,6 +207,33 @@ input {
 }
 
 @media  screen and (max-width:576px) {
+    .banner-image {
+        margin-top: 22%;
+    }
+    .banner-content
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        width: 50%;
+    }
+    .bnt {
+        width: 80px;
+        height: 30px;
+    }
+    .bnt-papa
+    {
+        display: flex;
+        gap: 5px;
+    }
+    .banner {
+        margin: 0%;
+    }
+
+    .nav {
+        margin: 0%;
+        padding: 2%;
+    }
 
     .about {
         margin: 2%;
